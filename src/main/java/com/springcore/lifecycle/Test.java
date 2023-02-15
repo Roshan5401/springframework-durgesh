@@ -8,7 +8,6 @@ import com.springcore.ci.Person;
 
 public class Test {
 	public static void main(String[] args) {
-		//using abstractapplicationcontext because registershutdownhook belong here
 		// this starts the destroy method
 		AbstractApplicationContext context=new ClassPathXmlApplicationContext("com\\springcore\\lifecycle\\config.xml");
 //		Samosa s1=context.getBean("s1",Samosa.class);
