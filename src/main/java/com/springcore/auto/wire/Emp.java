@@ -5,7 +5,6 @@ public class Emp {
 	public String toString() {
 		return "Emp [address=" + address + "]";
 	}
-
 	private Address address;
 
 	public Address getAddress() {
