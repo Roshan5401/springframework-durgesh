@@ -15,18 +15,17 @@ private String studentName;
 	@Value("kolkata")
 private String city;
 	
-	
+	//this is for the list and collection 
+	//check the config.xml to understand properly
+	@Value("#{phone}")
+private List<String> phones;
+
 	public List<String> getPhones() {
 		return phones;
 	}
 	public void setPhones(List<String> phones) {
 		this.phones = phones;
 	}
-	
-	//this is for the list and collection 
-	//check the config.xml to understand properly
-	@Value("#{phone}")
-private List<String> phones;
 
 public String getStudentName() {
 	return studentName;
